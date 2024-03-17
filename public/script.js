@@ -1,8 +1,8 @@
 const socket = io('/')
 const videoGrid = document.getElementById('video-grid')
 const myPeer = new Peer(undefined, {
-  host: 'https://creative-longma-25774e.netlify.app/',
-  port: '443',
+  host: '/',
+  port: '3001',
   secure: true // Set secure to true if you're using HTTPS
 })
 const myVideo = document.createElement('video')
