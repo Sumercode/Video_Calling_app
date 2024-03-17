@@ -1,0 +1,18 @@
+{
+  "name": "video_calling_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev":"nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "socket.io": "^4.7.5",
+    "uuid": "^9.0.1"
+  }
+}
