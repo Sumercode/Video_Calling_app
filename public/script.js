@@ -1,7 +1,7 @@
 const socket = io('/')
 const videoGrid = document.getElementById('video-grid')
 const myPeer = new Peer(undefined, {
-  host: 'https://video-calling-app-ml9c.onrender.com/',
+  host: 'https://creative-longma-25774e.netlify.app/',
   port: '443',
   secure: true // Set secure to true if you're using HTTPS
 })
