@@ -6,6 +6,8 @@ import path from "path";
 import { createServer } from "http"; //creating express server 
 import { Server } from "socket.io";  //creating socket server 
 import { v4 } from "uuid"; //for generating a random room number
+import cors from "cors";
+
 
 const PORT = 3000 || process.env.PORT;
 
